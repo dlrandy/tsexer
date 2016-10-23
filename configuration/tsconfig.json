@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "outDir": "./dist"
+    },
+    "exclude": [//include anything else
+        "node_modules",
+        "test"
+    ],
+    "files": [//only include these file to compile
+        "main.ts"
+    ]
+}
