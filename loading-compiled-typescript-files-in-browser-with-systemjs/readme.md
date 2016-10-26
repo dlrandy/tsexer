@@ -1,0 +1,5 @@
+tsconfig里设置了rootDir的情况下，files是不好使的，exclude好使
+
+systemjs是通用的动态模块加载器
+
+files不支持*.ts的匹配模式,它里面要支持的文件只能一个一个的写出来
