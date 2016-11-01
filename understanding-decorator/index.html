@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="./lib/system.js"></script>
+</head>
+<body>
+    <script>
+        System.config({
+            packages: {
+                "dist": {
+                    "defaultExtension": "js",
+                    "main": "main"
+                }
+            },
+            map: {
+             //   "lodash": "https://unpkg.com/lodash@4.16.4"
+            }
+        })
+
+        System.import("dist")
+    </script>
+</body>
+</html>

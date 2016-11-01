@@ -1,0 +1,16 @@
+{
+  "name": "reflect-decorator-metadata",
+  "version": "1.0.0",
+  "description": "普通的高阶函数就是类似一种装饰器；",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "reflect-metadata": "^0.1.8"
+  }
+}
